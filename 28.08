@@ -1,0 +1,43 @@
+Python: Essa é uma linguagem de programação de alto nível, conhecida por sua sintaxe simples e de fácil compreensão, o que a torna ideal tanto para iniciantes quanto para programadores experientes. Ela é amplamente empregada em diversas áreas, como desenvolvimento web, análise de dados, automação e inteligência artificial. Em Python, as variáveis são geradas automaticamente quando você atribui um valor a elas, sem precisar especificar o tipo de dado previamente. Variáveis são usadas nessa linguagem como de texto (string), de números (int) e etc. 
+Exemplo: 
+anos = input("Quantos anos você tem? ")
+print(f"Eu tenho {anos}")
+Java: Java é uma linguagem de programação orientada a objeto, multiplataforma que é executada em bilhões de dispositivos em todo o mundo. Ele capacita aplicativos, sistemas operacionais de smartphones, software empresarial e muitos programas conhecidos.
+Exemplo: 
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+      
+        Scanner scanner = new Scanner(System.in);
+        
+     
+        System.out.print("Quantos anos você tem? ");
+        
+     
+        String anos = scanner.nextLine();
+        
+        System.out.println("Eu tenho " + anos);
+        
+      
+        scanner.close();
+    }
+C++: é uma linguagem de programação de alto nível e de propósito geral. Ela foi desenvolvida como uma extensão da linguagem C, incorporando recursos adicionais, como suporte à programação orientada a objetos. Além disso, o C++ é utilizado em setores cruciais, como desenvolvimento de sistemas operacionais, jogos e software de alto desempenho, hardware e Internet das Coisas (IoT), redes, sistemas de e-mail, negócios B2B e B2E, sites de varejo, projetos de comunicação, aviação e até gerenciamento de energia.
+Exemplo:                                                                                                           #include <iostream>
+#include <string>
+
+int main() {
+  
+    std::string anos;
+    
+ 
+    std::cout << "Quantos anos você tem? ";
+    
+   
+    std::getline(std::cin, anos);
+    
+   
+    std::cout << "Eu tenho " << anos << std::endl;
+    
+    return 0;
+}
